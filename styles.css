@@ -108,7 +108,7 @@ input[type="serach"]:hover {
 .hero-section{
     width: 100%;
     height: calc(100vh - 120px);
-    background-image: url('images/slide\ 1.jpg');
+     background-image: url('slide\ 1.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
