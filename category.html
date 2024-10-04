@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Charm - Categories</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Classic Charm Logo">
+            <h1>Classic Charm</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="category.html">Categories</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <!-- Include this in the header section of all pages -->
+      <div class="search-container">
+        <input type="text" id="searchBar" placeholder="Search for Jewelry..." onkeydown="searchItems(event)">
+          <button id="searchBtn">Search</button>
+    </div>
+
+    <div class="icons">
+        <a href="login.html"><img src="images/logini icon.png" alt="Login Icon"></a>
+            <a href="#"><img src="images/cart icon.png" alt="Cart Icon"></a>
+    </div>
+    
+    </header>
+    <section class="category-section">
+        <h2>Jewelry Categories</h2>
+        <ul>
+            <li><a href="category.html?type=bracelet">Bracelets</a></li>
+            <li><a href="category.html?type=earrings">Earrings</a></li>
+            <li><a href="category.html?type=necklace-set">Necklace Sets</a></li>
+            <li><a href="category.html?type=bridal-set">Bridal Sets</a></li>
+            <li><a href="category.html?type=mehndi-jewelry">Mehndi Jewelry</a></li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Classic Charm. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
